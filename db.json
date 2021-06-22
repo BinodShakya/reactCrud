@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "first_name": "test edit",
+      "last_name": "last",
+      "password": "password",
+      "username": "username",
+      "published": true
+    },
+    {
+      "id": 3,
+      "first_name": "Binod",
+      "last_name": "Shakya2",
+      "password": "admin",
+      "username": "admin",
+      "published": false
+    },
+    {
+      "id": 4,
+      "first_name": "asd",
+      "last_name": "ghjk",
+      "password": "cfghjk",
+      "username": "admin",
+      "published": false
+    },
+    {
+      "id": 6,
+      "first_name": "something",
+      "last_name": "in ",
+      "password": "passing t",
+      "username": "the catchy",
+      "published": false
+    }
+  ]
+}
