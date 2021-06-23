@@ -5,11 +5,13 @@ import './tailwind.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import axios from "axios";
+import LoginContextProvider from "./context/LoginContext";
 
 ReactDOM.render(
     <BrowserRouter>
-        <App/>
+        <LoginContextProvider>
+            <App/>
+        </LoginContextProvider>
     </BrowserRouter>,
     document.getElementById('root')
 );

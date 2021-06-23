@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Link } from "react-router-dom";
+import {LoginContext} from "../context/LoginContext";
 
 export const Heading = (props) => {
+  const { handleLogOut } = useContext(LoginContext);
+
   const logout = () => {
-    // remove user from local storage to log user out
-    console.log("eta");
     localStorage.removeItem("token");
-    window.location.href = "http://localhost:3000";
+    handleLogOut();
   };
 
   return (
